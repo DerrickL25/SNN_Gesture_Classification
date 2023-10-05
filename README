@@ -1,1 +1,2 @@
-
+As part of my research group, I developed a neuromorphic gesture classification system using PyTorch and a specialized Spiking Neural Network (snntorch) library. 
+This project involved the recognition of human gestures from raw data captured by a neuromorphic event camera (DVS128).
