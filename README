@@ -1,2 +1,9 @@
-As part of my research group, I developed a neuromorphic gesture classification system using PyTorch and a specialized Spiking Neural Network (snntorch) library. 
-This project involved the recognition of human gestures from raw data captured by a neuromorphic event camera (DVS128).
+As part of my research group, I developed a neuromorphic gesture classification system using PyTorch and a specialized 
+Spiking Neural Network (snntorch) library. This project involved the recognition of human gestures from raw data 
+captured by a neuromorphic event camera (DVS128).
+
+The dataset used for this project is DVSGesture from IBM. 29 subjects are recorded performing 11 classes of body gestures
+by a DVS128 dynamic event camera. The dataset contains 1077 samples, each sample being a stream of events for one gesture.
+
+The nature of the data calls for the usage of an SNN, which is similar to an ANN, but aims to more closely mimic how the 
+human brain processes dynamic visual information in a time-varying manner.
